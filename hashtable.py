@@ -6,7 +6,7 @@ class HashTable():
     def _get_hash(self, key):
         return hash(key) % self.LEN
 
-    # TODO: Keys are equal
+    # TODO: If keys are equal we should change the value
     def add(self, key, value):
         h = self._get_hash(key)
         self.hash_table[h].append((key, value))
