@@ -15,4 +15,4 @@
 
 - [x] Implement a hashtable
 - [ ] Implement a arraylist
-- [ ] Implement a strinbuilder
+- [ ] Implement a stringbuilder
