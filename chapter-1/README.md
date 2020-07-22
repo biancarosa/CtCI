@@ -16,8 +16,8 @@
 # Exercises
 
 - [x] Implement a hashtable in Python
-- [ ] Implement a arraylist in Python
-- [ ] Implement a stringbuilder in Python
+- [x] Implement a arraylist in Python
+- [x] Implement a stringbuilder in Python
 - [ ] Implement a hashtable in Go
 - [ ] Implement a arraylist in Go
 - [ ] Implement a stringbuilder in Go

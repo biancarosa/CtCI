@@ -1,5 +1,4 @@
-import array
-from ctypes import c_int
+import timeit
 
 
 class ArrayList():
@@ -18,17 +17,18 @@ class ArrayList():
 
 
 def main():
+    start = timeit.default_timer()
     al = ArrayList()
-    al.append(1)
-    print(al.array_list)
-    al.append(2)
-    print(al.array_list)
-    al.append(3)
-    print(al.array_list)
-    al.append(4)
-    print(al.array_list)
-    al.append(5)
-    print(al.array_list)
+    for i in range(5):
+        al.append(i)
+    stop = timeit.default_timer()
+    print('Time: ', stop - start)
+    start = timeit.default_timer()
+    al = []
+    for i in range(5):
+        al.append(i)
+    stop = timeit.default_timer()
+    print('Time: ', stop - start)
 
 
 if __name__ == '__main__':
