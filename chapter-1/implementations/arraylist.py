@@ -4,16 +4,16 @@ import timeit
 class ArrayList():
 
     def __init__(self):
-        self.current_index = 0
+        self.index = 0
         self.array_list = [None, None]
-        self.current_len = 2
+        self.capacity = 2
 
     def append(self, value):
-        if self.current_index >= self.current_len:
-            self.array_list.extend([None] * self.current_len)
-            self.current_len = self.current_len * 2
-        self.array_list[self.current_index] = value
-        self.current_index += 1
+        if self.index >= self.capacity:
+            self.array_list.extend([None] * self.capacity)
+            self.capacity = self.capacity * 2
+        self.array_list[self.index] = value
+        self.index += 1
 
 
 def main():
