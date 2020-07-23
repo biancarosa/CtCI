@@ -22,5 +22,9 @@
 - [ ] Implement a arraylist in Go
 - [ ] Implement a stringbuilder in Go
 
+# Notes
+
+- Why (self.capacity * ctypes.py_object)() is slower than [None for _ in range(self.capacity)]?
+
 
 # Questions
