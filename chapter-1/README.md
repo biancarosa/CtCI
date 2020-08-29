@@ -27,4 +27,14 @@
 - Why (self.capacity * ctypes.py_object)() is slower than [None for _ in range(self.capacity)]?
 
 
-# Questions
+# Interview Questions
+
+- [x] 1.1 - Is Unique  - all_unique_chars.py
+- [x] 1.2 - Check Permutation - check_permutation.py
+- [x] 1.3 - URLify - urlify.py
+- [x] 1.4 - Palindrome Permutation - is_permutation_of_a_palindrome.py
+- [x] 1.5 - One Away - edits.py
+- [ ] 1.6 - String Comprehension
+- [ ] 1.7 - Rotate Matrix
+- [ ] 1.8 - Zero Matrix
+- [ ] 1.9 - String Rotation
